@@ -1,0 +1,100 @@
+/* variation */
+.isures-radio-variable.scroll-on{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    height: 115px;
+	border: 1px dashed #eee;
+	padding-top: 10px;
+	
+}
+.isures-option {
+    display: inline-block;
+	text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-right: 10px;
+    background: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+    border-radius: 4px;
+	cursor: pointer;
+	border: 1px solid transparent;
+	min-width: 75px;
+	max-width: 125px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.isures-option.active{
+	border: 1px solid #f89008
+}
+.variations select{display: none}
+span.option-child {
+	padding: 5px 5px 5px 25px;
+    display: block;
+    position: relative;
+    font-size: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.1;
+}
+.isures-option span{
+    font-weight: normal;}
+.isures-option.active span{font-weight: bold}
+.isures-option span.woocommerce-Price-amount.amount{
+    font-size: 16px;
+    display: block;
+    color: #e10c00;
+    text-align: center;
+	font-weight: bold
+}
+.isures-option input[type='radio'] , td.label{display: none}
+.isures-option .option-child:before{
+	content:"";
+    display:inline-block;
+    width:18px;
+    height:18px;
+	line-height: 18px;
+    background: #fff;
+	border: 1px solid #ddd;
+	text-align:center;
+	position: absolute;
+	left: 0;
+	top: 4px;
+	color: #fff;
+    cursor:pointer;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 700;
+	font-size: 8px;
+	border-radius: 99px;
+}
+.isures-option.active .option-child:before{
+
+	background: #3fb846;
+}
+
+
+.isures-radio-variable::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5
+}
+
+.isures-radio-variable::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px 0 0 4px
+}
+
+.isures-radio-variable::-webkit-scrollbar-track {
+    background-color: transparent;
+}
