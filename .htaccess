@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^trang-chu$ index.php
+RewriteRule ^gio-hang$ index.php?controller=cart
+RewriteRule ^tin-tuc$ index.php?controller=news
+RewriteRule ^lien-he$ index.php?controller=contact
+RewriteRule ^dang-nhap$ index.php?controller=account&action=login
+RewriteRule ^dang-ky$ index.php?controller=account&action=register
+RewriteRule ^san-pham/(.*)/(.*)$ index.php?controller=products&action=categories&category_id=$2
+RewriteRule ^chi-tiet-san-pham/(.*)/(.*)$ index.php?controller=products&action=detail&id=$2
+
