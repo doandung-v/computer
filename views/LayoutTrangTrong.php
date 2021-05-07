@@ -6,7 +6,7 @@
 <!-- Mirrored from maytinh3.giaodienwebmau.com/danh-muc-san-pham/laptop/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Dec 2020 01:18:36 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-  <base href="http://localhost:88/php53/Project_banhang/">
+  <base href="http://localhost:88/php53/computer/">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
