@@ -114,20 +114,9 @@
 <style id="custom-css" type="text/css">:root {--primary-color: #ce0707;}.full-width .ubermenu-nav, .container, .row{max-width: 1200px}.row.row-collapse{max-width: 1170px}.row.row-small{max-width: 1192.5px}.row.row-large{max-width: 1230px}.header-main{height: 91px}#logo img{max-height: 91px}#logo{width:374px;}.header-bottom{min-height: 43px}.header-top{min-height: 33px}.transparent .header-main{height: 30px}.transparent #logo img{max-height: 30px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 110px;}.header.show-on-scroll,.stuck .header-main{height:50px!important}.stuck #logo img{max-height: 50px!important}.search-form{ width: 87%;}.header-bg-color, .header-wrapper {background-color: rgba(255,255,255,0.9)}.header-bottom {background-color: #e10000}.stuck .header-main .nav > li > a{line-height: 15px }.header-bottom-nav > li > a{line-height: 16px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}.nav-dropdown{font-size:96%}.header-top{background-color:#000000!important;}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #ce0707;}/* Color !important */[data-text-color="primary"]{color: #ce0707!important;}/* Background Color */[data-text-bg="primary"]{background-color: #ce0707;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #ce0707;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #ce0707}.nav-tabs > li.active > a{border-top-color: #ce0707}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #ce0707 }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #ce0707 }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #ce0707;}/* Background Color */[data-icon-label]:after, .secondary.is-underline:hover,.secondary.is-outline:hover,.icon-label,.button.secondary:not(.is-outline),.button.alt:not(.is-outline), .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button, .current .breadcrumb-step{ background-color:#ffb400; }[data-text-bg="secondary"]{background-color: #ffb400;}/* Color */.secondary.is-underline,.secondary.is-link, .secondary.is-outline,.stars a.active, .star-rating:before, .woocommerce-page .star-rating:before,.star-rating span:before, .color-secondary{color: #ffb400}/* Color !important */[data-text-color="secondary"]{color: #ffb400!important;}/* Border */.secondary.is-outline:hover{border-color:#ffb400}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family:"Roboto", sans-serif}body{font-weight: 0}body{color: #232323}.nav > li > a {font-family:"Roboto", sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family:"Roboto", sans-serif;}.nav > li > a {font-weight: 500;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 500;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Roboto", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font{color: #0a0a0a;}.alt-font{font-family: "Dancing Script", sans-serif;}.alt-font{font-weight: 400!important;}.header:not(.transparent) .header-bottom-nav.nav > li > a{color: #ffffff;}a{color: #3365c1;}a:hover{color: #f26659;}.tagcloud a:hover{border-color: #f26659;background-color: #f26659;}.widget a{color: #232323;}.widget a:hover{color: #e41886;}.widget .tagcloud a:hover{border-color: #e41886; background-color: #e41886;}.shop-page-title.featured-title .title-overlay{background-color: #4c00bf;}.products.has-equal-box-heights .box-image {padding-top: 100%;}@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 168px!important;width: 168px!important;}}.absolute-footer, html{background-color: #f0eded}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style> <meta property="fb:app_id" content="104537736801666" />
 <meta property="fb:admins" content="100001613853961"/>
 
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "../connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.9&appId=104537736801666";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
 </head>
 
 <body class="home page-template page-template-page-blank page-template-page-blank-php page page-id-2 theme-flatsome ot-vertical-menu ot-menu-show-home woocommerce-no-js lightbox">
-
-<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
 
 <div id="wrapper">
 
@@ -141,12 +130,12 @@
     <div class="page-loader-spin"><div class="loading-spin"></div></div>
   </div>
   <style>
-    .page-loader{opacity: 0; transition: opacity .3s; transition-delay: .3s;
+    .page-loader{opacity: 0; transition: opacity .1s; transition-delay: .1s;
       background-color: #fff;
     }
     .loading-site .page-loader{opacity: .98;}
-    .page-loader-logo{max-width: px; animation: pageLoadZoom 1.3s ease-out; -webkit-animation: pageLoadZoom 1.3s ease-out;}
-    .page-loader-spin{animation: pageLoadZoomSpin 1.3s ease-out;}
+    .page-loader-logo{max-width: px; animation: pageLoadZoom 1.3s ease-out; -webkit-animation: pageLoadZoom 1s ease-out;}
+    .page-loader-spin{animation: pageLoadZoomSpin 1s ease-out;}
     .page-loader-spin .loading-spin{width: 40px; height: 40px; }
     @keyframes pageLoadZoom {
         0%   {opacity:0; transform: translateY(30px);}
@@ -168,20 +157,6 @@
   ?>
 
 <!-- End Header -->
-
-<!--Start of Tawk.to Script-->
-  <script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/605c963cf7ce18270933dc38/1f1kqlne7';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
-  </script>
-<!--End of Tawk.to Script-->
 
 
 <!-- Main -->
