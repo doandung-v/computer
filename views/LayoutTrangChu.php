@@ -1,19 +1,8 @@
 <!DOCTYPE html>
-<!--[if IE 9 ]> <html lang="vi" class="ie9 loading-site no-js"> <![endif]-->
-<!--[if IE 8 ]> <html lang="vi" class="ie8 loading-site no-js"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="vi" class="loading-site no-js"> <!--<![endif]-->
-
-<!-- Mirrored from / by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Dec 2020 01:18:29 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<html lang="vi" class="loading-site no-js">
+<meta charset="utf-8">
 <head>
   <base href="http://localhost:88/php53/computer/">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-  <link rel="profile" href="http://gmpg.org/xfn/11" />
-  <link rel="pingback" href="xmlrpc.php" />
-
-  <script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
 <title>Trang chủ - Chuyên mua bán pc - laptop cấu hình cao</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <!-- This site is optimized with the Yoast SEO Premium plugin v11.5 - https://yoast.com/wordpress/plugins/seo/ -->
