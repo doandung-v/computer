@@ -21,7 +21,7 @@
                 <div class="row" style="margin-top:5px;">
                     <div class="col-md-2">Giá cấu hình 1</div>
                     <div class="col-md-10">
-                        <input type="text" value="<?php echo isset($record->price)?$record->price:""; ?>" name="price" class="form-control" required>
+                        <input type="number" value="<?php echo isset($record->price)?$record->price:""; ?>" name="price" class="form-control" required>
                     </div>
                 </div>
                 <!-- end rows -->
@@ -29,7 +29,15 @@
                 <div class="row" style="margin-top:5px;">
                     <div class="col-md-2">Giá cấu hình 2</div>
                     <div class="col-md-10">
-                        <input type="text" value="<?php echo isset($record->priceS)?$record->priceS:""; ?>" name="priceS" class="form-control">
+                        <input type="number" value="<?php echo isset($record->priceS)?$record->priceS:""; ?>" name="priceS" class="form-control">
+                    </div>
+                </div>
+                <!-- end rows -->
+                <!-- rows -->
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-md-2">Số lượng</div>
+                    <div class="col-md-10">
+                        <input type="number" value="" name="quantitiesAdd" class="form-control">
                     </div>
                 </div>
                 <!-- end rows -->

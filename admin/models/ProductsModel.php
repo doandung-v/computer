@@ -50,13 +50,20 @@
 			$sale = isset($_POST["sale"])?1:0;
 			$price = $_POST["price"];
 			$priceS = $_POST["priceS"];
+			$quantitiesAdd = $_POST["quantitiesAdd"];
 			$discount = $_POST["discount"];
 			$category_id= $_POST["category_id"];
 			//update cột name
 			// lấy biến kết nối
 			$conn = Connection::getInstance();
-			$query = $conn->prepare("update products set name=:_name, description=:_description, descriptionS=:_descriptionS, content=:_content, hot=:_hot, sale=:_sale, price=:_price, priceS=:_priceS, discount=:_discount, category_id=:_category_id where id=:_id");
-			$query->execute([":_name"=>$name,":_description"=>$description,":_descriptionS"=>$descriptionS,":_content"=>$content, ":_hot"=>$hot, ":_sale"=>$sale, ":_price"=>$price, ":_priceS"=>$priceS, ":_discount"=>$discount, ":_category_id"=>$category_id, ":_id"=>$id]);
+			// lấy giá trị của quantities
+			$record = $conn->query("select quantities from products where id=$id");
+			$row= $record->fetch();
+			$quantities = $row->quantities;
+			$quantitiesNew = $quantities + $quantitiesAdd;
+			//
+			$query = $conn->prepare("update products set name=:_name, description=:_description, descriptionS=:_descriptionS, content=:_content, hot=:_hot, sale=:_sale, price=:_price, priceS=:_priceS, quantities=:_quantities, discount=:_discount, category_id=:_category_id where id=:_id");
+			$query->execute([":_name"=>$name,":_description"=>$description,":_descriptionS"=>$descriptionS,":_content"=>$content, ":_hot"=>$hot, ":_sale"=>$sale, ":_price"=>$price, ":_priceS"=>$priceS, ":_quantities"=>$quantitiesNew, ":_discount"=>$discount, ":_category_id"=>$category_id, ":_id"=>$id]);
 			//---
 			// nếu user upload ảnh thì lấy ảnh cũ để xóa, sau đó upload ảnh mới và update database
 			if($_FILES["photo"]["name"] != ""){

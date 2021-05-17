@@ -251,3 +251,23 @@ body{
 	position: absolute;
 	right: 0px;
 }
+#main{
+	margin: 0px auto;
+	padding: 0px;
+	width: 1200px;
+}
+.main-wrapper{
+	display: flex;
+}
+.main-wrapper-left{
+	width: 230px;
+	display: block;
+}
+.main-wrapper-center{
+
+}
+.main-wrapper-center ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
